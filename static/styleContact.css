@@ -1,0 +1,39 @@
+.container{
+    min-height:79vh;
+    display: flex;
+    align-items: centers;
+    flex-direction: column;
+}
+h1{
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    margin: 12px;
+    font-size: 2rem;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.myInput{
+    width: 30%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid rgb(83, 0, 0);
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    font-family: "Roboto Mono", monospace;
+    padding: 12px 16px;
+    font-size: 18px;
+    border: 2px solid rgb(83, 0, 0);
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    background: rgb(253, 21, 21);
+    cursor: pointer;
+}

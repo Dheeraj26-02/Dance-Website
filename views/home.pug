@@ -1,0 +1,39 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/script.js")
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+        
+        section#intro
+            div Welcome to Dheeraj Dance Academy 
+            div.small Eat Repeat Dance Sleep 
+        section#mission 
+            h2 Missions
+            div.card
+                h3 Dance Perfection
+                div.cardbox
+                    div.card-img
+                        img(src="/static/img1.png")
+                    dic.card-content
+                        p This is the best dance academy.
+            div.card
+                h3 Expert Teaching
+                div.cardbox
+                    div.card-img
+                        img(src="/static/img2.png")
+                    dic.card-content
+                        p This is the best dance academy.
+            div.card
+                h3 Dance the way you like
+                div.cardbox
+                    div.card-img
+                        img(src="/static/img3.png")
+                    div.card-content
+                        p This is the best dance academy.
+        section#sponser
+            h2 Our Sponsers 

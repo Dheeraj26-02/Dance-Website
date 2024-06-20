@@ -1,0 +1,24 @@
+//- layout.pug//contains common files from same structures sharing in home,contact
+doctype html
+html
+  head
+    title Dance Academy
+    block style 
+    block scripts
+
+  body
+    nav#navbar 
+            ul
+                div#logo
+                    img(src="/static/logo.jpg")
+                li #[a(href="/") About]
+                li #[a(href="/") Home]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/contact") Contact Us]
+
+    block content
+    block foot
+    footer#footer
+            div.foot
+                |Copyright ©️ 2024 Dheeraj Kriplani | All Rights Reserved
